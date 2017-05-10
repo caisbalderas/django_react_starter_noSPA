@@ -1,6 +1,8 @@
 # Django React Starter
 Django starter app using Webpack 2 and React (and a few extras). I put this together because **it was difficult to find up to date resources on this topic**. I will try my best to stay up to date on it but very much appreciate any PRs to help me with that. 
 
+This project puts you in a place to start development and skip the annoying setup.
+
 # Requirements
  - node
  - yarn package manager
