@@ -1,0 +1,4 @@
+Django==1.11.1
+django-webpack-loader==0.4.1
+pytz==2017.2
+sqlparse==0.2.3
