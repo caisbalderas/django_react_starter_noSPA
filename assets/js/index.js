@@ -1,6 +1,6 @@
-import React, { PropTypes } from 'react';
-import ReactDOM from 'react-dom';
-import Relay from 'react-relay';
+var React = require('react');
+var ReactDOM  = require('react-dom');
+var App = require('./app');
 import '../scss/main.scss';
 
-React.render(<App/>, document.getElementById('react-app'));
+ReactDOM.render(<App/>, document.getElementById('react-app'));

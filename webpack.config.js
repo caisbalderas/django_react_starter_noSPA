@@ -74,16 +74,13 @@ var config = {
         loader: fileLoaderPath,
         include: [
           resolve('node_modules'),
-          resolve('saleor/static/fonts'),
-          resolve('saleor/static/images'),
-          resolve('saleor/static/dashboard/images')
         ]
       }
     ]
   },
   plugins: [
     bundleTrackerPlugin,
-    commonsChunkPlugin,
+    //commonsChunkPlugin,
     environmentPlugin,
     extractTextPlugin,
     occurenceOrderPlugin,
