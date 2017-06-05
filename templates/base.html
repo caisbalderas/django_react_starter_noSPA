@@ -1,4 +1,5 @@
 {% load render_bundle from webpack_loader %}
+{% load jsonfilter %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,6 +12,10 @@
   </head>
 
   <body id="react-app">
+    <script>
+        window.props = {{props|json}};
+        window.react_mount = document.getElementById('react-app');
+    </script>
     {% render_bundle 'main' 'js' %}
   </body>
 </html>
